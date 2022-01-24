@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/e14216dac2.js" crossorigin="anonymous"></script>
+ 
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <style>
+        .transparent{
+            height: 150px;
+        }
+        .nav-wrapper{
+            padding-top: 12px;
+        }
+        a.brand-logo{
+            color: rgb(131, 4, 29);
+            font-family: Perpetua Titling MT;
+            font-weight: bold;
+            text-align: left;
+            text-shadow: black;
+            font-size: 50px;
+            padding-top: 10px;
+        }
+        .nav-content{
+            background-color: rgb(131, 4, 29);
+            height: 70px;
+            border-bottom: grey solid 10px;;
+        }
+        .page-footer {
+            background-color: rgb(131, 4, 29);;
+            position: fixed;
+            bottom: 0;
+            padding: 0;
+            width: 100%;
+            height: 160px;
+        }
+
+        ul#dropdown1{
+            color: grey;
+        }
+
+
+        h3{
+            font-family: Perpetua Titling MT;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h4{
+            font-family: Perpetua Titling MT;
+            font-weight: bold;
+            text-align: left;
+        }
+        .schoolbg{
+            background-image: url('images/CrimsonHighbg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .modal{
+            padding-left: 50px;
+            padding-right: 100px;
+        }
+        .active-link{
+            font-weight: bold;
+        }
+
+
+
+
+    </style>
+    <title>Student Organizations</title>
+</head>
+<body>
+    
+    <!--Header-->
+    <div class="col s12">
+        <header class="main-header">
+            <nav class="transparent">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <img src="images/CHlogo-png.png" alt="" class="logo">
+                        <a href="homepage.html" class="brand-logo">Crimson High</a>    
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    
+    <!-- Dropdown Structure: About CH -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="aboutCH1.html">Vison, Mission, Goals</a></li>
+        <li class="divider"></li>
+        <li><a href="aboutCH2.html"> Administration </a></li>
+        <li class="divider"></li>
+        <li><a href="aboutCH3.html"> Campus Building </a></li>        
+    </ul>
+
+    <!-- Dropdown Structure: Admissions -->
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="admissionP.html">Admission Procedure</a></li>
+        <li class="divider"></li>
+        <li><a href="admissionS.html"> Scholarship and Financial Assistance </a></li>       
+    </ul>
+
+    <!-- Dropdown Structure: Campus Life -->
+    <ul id="dropdown3" class="dropdown-content">
+        <li><a href="campuslife1.html">News and Events</a></li>
+        <li class="divider"></li>
+        <li><a href="campuslife2.html"> Student Organizations </a></li>     
+    </ul>
+
+
+    <div class="col s12">
+            <!--Navbar-->
+    <nav>
+        <div class="nav-content">
+            <div class="container">
+                <div class="col s12">
+                    <ul>
+                        <li> <a href="index.html" class="active-link"> HOME </a></li>
+                        <li> <a class="dropdown-trigger" href="#!" data-target="dropdown1"> ABOUT CH </a> </li>
+                        <li> <a class="dropdown-trigger" href="#!" data-target="dropdown2"> ADMISSIONS </a> </li>
+                        <li> <a class="dropdown-trigger" href="#!" data-target="dropdown3"> CAMPUS LIFE </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+
+
+<div class="schoolbg">
+    <br>
+
+        <div class="container">
+            <div class="row">
+                                            <br>
+                                <!--Scholarships-->
+                                <h3 class="red-text text-darken-4 align-center"> Student Organizations </h3>
+                
+
+                                <hr>
+                                <br>
+                                <!--Mathinik Club-->
+                                <div class="col s12 m6">
+                                    <img src="images/MATHCLUB.jpg">
+                                </div>
+                                <!--Math Club-->
+                                <div class="col s12 m6">
+                                    <h4> Mathalino Club</h4> 
+                                    <h6> <i class="far fa-user-circle"></i><b>  Club Adviser: Eric Latina  </b> </h6>
+                                    <br>
+                                    <a class="waves-effect waves-light red darken-4 btn modal-trigger" href="#club"> Read More >> </a> 
+                                    <!-- Modal Structure -->
+                                <div id="club" class="modal modal-fixed-footer">
+                                    <div class="modal-content">
+                                    <h3>Join Now!</h3>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-red btn-flat">OK</a>
+                                    </div>
+                                </div>
+                                <!--End of column-->        
+                                </div> 
+                      
+                
+
+                    <!--end of row-->
+                </div>
+                <hr>
+                <div class="row">
+                    
+                                <br>
+                                    <!--Science Club-->
+                                    <div class="col s12 m6">
+                                        <img src="images/scienceclub.jpg">
+                                    </div>
+                                    <!--Science Club-->
+                                    <div class="col s12 m6">
+                                        <h4> Science Club</h4> 
+                                        <h6> <i class="far fa-user-circle"></i><b>  Club Adviser: Jose Marie Detera  </b> </h6>
+                                        <br>
+                                        <a class="waves-effect waves-light red darken-4 btn modal-trigger" href="#club"> Read More >> </a> 
+                                        <!-- Modal Structure -->
+                                    <div id="club" class="modal modal-fixed-footer">
+                                        <div class="modal-content">
+                                        <h3>Join Now!</h3>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <a href="#!" class="modal-close waves-effect waves-red btn-flat">OK</a>
+                                        </div>
+                                    </div>
+                                    <!--End of column-->        
+                                    </div> 
+                                                                                                   
+    
+                        <!--end of row-->
+                    </div>
+                    <hr>
+                <div class="row">
+                                <br>
+                                    <!--Drama Club-->
+                                    <div class="col s12 m6">
+                                        <img src="images/dramaclub.jpg">
+                                    </div>
+                                    <!--Drama Club-->
+                                    <div class="col s12 m6">
+                                        <h4> Drama Club</h4> 
+                                        <h6> <i class="far fa-user-circle"></i><b>  Club Adviser: Inalen Villegas  </b> </h6>
+                                        <br>
+                                        <a class="waves-effect waves-light red darken-4 btn modal-trigger" href="#club"> Read More >> </a> 
+                                        <!-- Modal Structure -->
+                                    <div id="club" class="modal modal-fixed-footer">
+                                        <div class="modal-content">
+                                        <h3>Join Now!</h3>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <a href="#!" class="modal-close waves-effect waves-red btn-flat">OK</a>
+                                        </div>
+                                    </div>
+                                    <!--End of column-->        
+                                    </div> 
+                                  
+    
+                        <!--end of row-->
+                    </div>
+                    <hr>
+                    <div class="row">
+                                    <br>
+                                        <!--Robotics Club-->
+                                        <div class="col s12 m6">
+                                            <img src="images/ROBOTICSCLUB.jpg">
+                                        </div>
+                                        <!--Robotics Club-->
+                                        <div class="col s12 m6">
+                                            <h4> Robotics Club</h4> 
+                                            <h6> <i class="far fa-user-circle"></i><b>  Club Adviser: Jerome Pagacpac  </b> </h6>
+                                            <br>
+                                            <a class="waves-effect waves-light red darken-4 btn modal-trigger" href="#club"> Read More >> </a> 
+                                            <!-- Modal Structure -->
+                                        <div id="club" class="modal modal-fixed-footer">
+                                            <div class="modal-content">
+                                            <h3>Join Now!</h3>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <a href="#!" class="modal-close waves-effect waves-red btn-flat">OK</a>
+                                            </div>
+                                        </div>
+                                        <!--End of column-->        
+                                        </div> 
+        
+                            <!--end of row-->
+                        </div>
+
+        <!--end of container-->            
+        </div>
+                   
+    <div style="height:200px;"> </div>
+
+
+</div>
+    
+                 
+    
+           
+   
+        <!--Footer
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                            
+                                <br><i class="tiny material-icons">location_on</i> 084 Latina Street,
+                                Liporada, Netherlands
+                                <br><i class="tiny material-icons">call</i> 12345678
+                                <br><i class="fab fa-facebook-f"></i> @crimsonhigh
+                                <br><i class="fab fa-instagram"></i> @crimson_high
+                            
+                            <p class="grey-text text-lighten-1">
+                                Copyright <i class="tiny material-icons">copyright</i> 2022. All Rights Reserved
+                            </p>
+                            
+                            
+                        </div>
+                </div>
+            </div>
+        </footer>
+    -->
+
+    <!--Comment Section-->
+    <div class="row">
+        <div class="col s12">
+            <!--Message me Floating Button-->
+            <div class="fixed-action-btn">
+                <a class="btn-floating btn-large modal-trigger red darken-4" href="#modal1">
+                <i class="large material-icons">mode_edit</i>
+                </a>
+                <!-- Modal Structure -->
+            <div id="modal1" class="modal bottom-sheet">
+                <div class="modal-content">
+                <h4 class="red-text text-darken-4">Join the Discussion</h4>
+                <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">account_circle</i>
+                          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                          <label for="icon_prefix2">Leave a message....</label> 
+                          <a class="modal-trigger" href="#modal2"> <i class="material-icons red-text darken-4 prefix">send</i></a>
+                          <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-light red darken-4 white-text btn-flat">EXIT</a>
+                          </div>
+                          
+                          <!-- Modal Structure -->
+                            <div id="modal2" class="modal">
+                                <div class="modal-content">
+                                <h3>Message Sent!</h3>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-light red darken-4 white-text btn-flat">OK</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <!--end of modal-->
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    
+
+        <!--JQuery CDN-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+             //Drop Down
+             $(document).ready(function(){
+                $(".dropdown-trigger").dropdown({
+                    hover: true,
+                    constrainWidth: false,
+                    coverTrigger: false,
+                    autoTrigger: false
+                });
+
+             //Materialboxed
+             $(document).ready(function(){
+                $('.materialboxed').materialbox();
+             });
+
+             $(document).ready(function(){
+                $('.modal').modal({
+                    opacity: 0.7
+                }
+                );
+             });
+             $(document).ready(function(){
+                $('.fixed-action-btn').floatingActionButton();
+            });
+
+            
+
+            });
+        </script>
+        
+    
+</body>
+</html>

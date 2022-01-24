@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/e14216dac2.js" crossorigin="anonymous"></script>
+ 
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <style>
+        .transparent{
+            height: 150px;
+        }
+        .nav-wrapper{
+            padding-top: 12px;
+        }
+        a.brand-logo{
+            color: rgb(131, 4, 29);
+            font-family: Perpetua Titling MT;
+            font-weight: bold;
+            text-align: left;
+            text-shadow: black;
+            font-size: 50px;
+            padding-top: 10px;
+        }
+        .nav-content{
+            background-color: rgb(131, 4, 29);
+            height: 70px;
+            border-bottom: grey solid 10px;;
+        }
+        .page-footer {
+            background-color: rgb(131, 4, 29);;
+            position: fixed;
+            bottom: 0;
+            padding: 0;
+            width: 100%;
+            height: 160px;
+        }
+
+        ul#dropdown1{
+            color: grey;
+        }
+
+
+        h4{
+            font-family: Perpetua Titling MT;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .card{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 20px;
+        }
+        h3{
+            font-family: Perpetua Titling MT;
+            font-weight: bold;
+            text-align: center;
+        }
+        h5{
+            font-family: Perpetua Titling MT;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+        }
+        .active-link{
+            font-weight: bold;
+        }
+        ol{
+            text-align: left;
+        }
+
+
+
+
+
+    </style>
+    <title>Scholarship and Financial Assistance</title>
+</head>
+<body>
+    
+    <!--Header-->
+    <div class="col s12">
+        <header class="main-header">
+            <nav class="transparent">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <img src="images/CHlogo-png.png" alt="" class="logo">
+                        <a href="homepage.html" class="brand-logo">Crimson High</a>    
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    
+    <!-- Dropdown Structure: About CH -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="aboutCH1.html">Vison, Mission, Goals</a></li>
+        <li class="divider"></li>
+        <li><a href="aboutCH2.html"> Administration </a></li>
+        <li class="divider"></li>
+        <li><a href="aboutCH3.html"> Campus Building </a></li>        
+    </ul>
+
+    <!-- Dropdown Structure: Admissions -->
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="admissionP.html">Admission Procedure</a></li>
+        <li class="divider"></li>
+        <li><a href="admissionS.html"> Scholarship and Financial Assistance </a></li>       
+    </ul>
+
+    <!-- Dropdown Structure: Campus Life -->
+    <ul id="dropdown3" class="dropdown-content">
+        <li><a href="campuslife1.html">News and Events</a></li>
+        <li class="divider"></li>
+        <li><a href="campuslife2.html"> Student Organizations </a></li>     
+    </ul>
+
+                
+    <!--Navbar-->
+    <nav>
+        <div class="nav-content">
+            <div class="container">
+                <div class="col s12">
+                    <ul>
+                        <li> <a href="index.html" class="active-link"> HOME </a></li>
+                        <li> <a class="dropdown-trigger" href="#!" data-target="dropdown1"> ABOUT CH </a> </li>
+                        <li> <a class="dropdown-trigger" href="#!" data-target="dropdown2"> ADMISSIONS </a> </li>
+                        <li> <a class="dropdown-trigger" href="#!" data-target="dropdown3"> CAMPUS LIFE </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <br>
+
+    <!--Scholarships-->
+        <h3 class="red-text text-darken-4 align-center"> Scholarships and Financial Assistance</h3>
+
+        <div class="row">
+            <div class="container">
+
+                <!--Academic Scholarship-->
+                <div class="col s12 m4">
+                    <div class="medium card">
+                        <div class="card-image">
+                            <br>
+                            <img src="images/academicscholarship.png">
+                          </div>
+                          <div class="card-content">
+                            <h5> Academic Scholarship</h5>
+                          </div>
+                          <div class="card-action center">
+                             <!-- Modal Trigger -->
+                                <a class="waves-effect red darken-4 waves-light btn modal-trigger" href="#modal1">Scholarship Requirements</a>
+                                <div id="modal1" class="modal">
+                                    <div class="modal-content">
+                                      <h5 class="red darken-4 white-text">Scholarship Requirements</h5>
+                                      <h6>
+                                        <ol type="1">
+                                            <li> Letter of Request: </li>
+                                            Addressed to: Allen Joel Lora, Principal, Crimson High, Liporada, Netherlands
+                                            <li> Duly accomplished Application Form </li>
+                                            <li> Recommendation Letter accomplished by Class Adviser </li>
+                                            <li> Certificate of Batch Ranking </li>
+                                            <li> Grade 6 Report Card </li>
+                                            <li> Good Moral </li>
+                                        </ol>
+                                      </h6>
+                                      
+                                    </div>
+                                    <div class="modal-footer">
+                                      <a href="#!" class="modal-close waves-effect waves-red btn-flat red-text text-darken-4">Back</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+
+                <!--Athletic Scholarship-->
+                <div class="col s12 m4">
+                    <div class="medium card">
+                        <div class="card-image">
+                            <br>
+                            <img src="images/sports.jpg">
+                          </div>
+                          <div class="card-content">
+                            <h5> Athletic Scholarship</h5>
+                          </div>
+                          <div class="card-action center">
+                             <!-- Modal Trigger -->
+                                <a class="waves-effect red darken-4 waves-light btn modal-trigger" href="#modal1">Scholarship Requirements</a>
+                                <div id="modal1" class="modal">
+                                    <div class="modal-content">
+                                      <h5 class="red darken-4 white-text">Scholarship Requirements</h5>
+                                      <h6>
+                                        <ol type="1">
+                                            <li> Letter of Request: </li>
+                                            Addressed to: Allen Joel Lora, Principal, Crimson High, Liporada, Netherlands
+                                            <li> Duly accomplished Application Form </li>
+                                            <li> Recommendation Letter accomplished by Class Adviser </li>
+                                            <li> Certificate of Batch Ranking </li>
+                                            <li> Grade 6 Report Card </li>
+                                            <li> Good Moral </li>
+                                        </ol>
+                                      </h6>
+                                      
+                                    </div>
+                                    <div class="modal-footer">
+                                      <a href="#!" class="modal-close waves-effect waves-red btn-flat red-text text-darken-4">Back</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+                <!--Financial Assistance-->
+                <div class="col s12 m4">
+                    <div class="medium card">
+                        <div class="card-image">
+                            <br>
+                            <img src="images/graduation-cap-on-top-of-books-with-gold-coins.png">
+                          </div>
+                          <div class="card-content">
+                            <h5> Financial Assistance</h5>
+                          </div>
+                          <div class="card-action center">
+                             <!-- Modal Trigger -->
+                                <a class="waves-effect red darken-4 waves-light btn modal-trigger" href="#modal1">Scholarship Requirements</a>
+                                <div id="modal1" class="modal">
+                                    <div class="modal-content">
+                                      <h5 class="red darken-4 white-text">Scholarship Requirements</h5>
+                                      <h6>
+                                        <ol type="1">
+                                            <li> Letter of Request: </li>
+                                            Addressed to: Allen Joel Lora, Principal, Crimson High, Liporada, Netherlands
+                                            <li> Duly accomplished Application Form </li>
+                                            <li> Recommendation Letter accomplished by Class Adviser </li>
+                                            <li> Certificate of Batch Ranking </li>
+                                            <li> Grade 6 Report Card </li>
+                                            <li> Good Moral </li>
+                                        </ol>
+                                      </h6>
+                                      
+                                    </div>
+                                    <div class="modal-footer">
+                                      <a href="#!" class="modal-close waves-effect waves-red btn-flat red-text text-darken-4">Back</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            </div>
+
+            
+                <!--end of row-->
+        </div>
+    
+    <div style="height:150px;"> </div>
+             
+    
+           
+
+        <!--Footer-->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                            
+                                <br><i class="tiny material-icons">location_on</i> 084 Latina Street,
+                                Liporada, Netherlands
+                                <br><i class="tiny material-icons">call</i> 12345678
+                                <br><i class="fab fa-facebook-f"></i> @crimsonhigh
+                                <br><i class="fab fa-instagram"></i> @crimson_high
+                            
+                            <p class="grey-text text-lighten-1">
+                                Copyright <i class="tiny material-icons">copyright</i> 2022. All Rights Reserved
+                            </p>
+                            
+                            
+                        </div>
+                </div>
+            </div>
+        </footer>
+          
+    
+    
+
+        <!--JQuery CDN-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+             //Drop Down
+             $(document).ready(function(){
+                $(".dropdown-trigger").dropdown({
+                    hover: true,
+                    constrainWidth: false,
+                    coverTrigger: false,
+                    autoTrigger: false
+                });
+
+             //Materialboxed
+             $(document).ready(function(){
+                $('.materialboxed').materialbox();
+             });
+
+             $(document).ready(function(){
+                $('.modal').modal();
+             });
+            
+
+            });
+        </script>
+        
+    
+</body>
+</html>
